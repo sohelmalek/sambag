@@ -1,0 +1,278 @@
+html,
+body {
+    font-family: 'Andika New Basic', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+p {
+    color: #757575 !important;
+    font-size: 13px;
+    /* font-weight: 600; */
+    letter-spacing: 1.5px;
+    word-spacing: 2px;
+}
+
+p,
+h4 {
+    font-family: 'PT Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.active a {
+    font-weight: 700 !important;
+    color: #dc3545 !important;
+}
+
+.banner-text h1 {
+    letter-spacing: 1px;
+    word-spacing: 6px;
+}
+
+.responsive-iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.header-menu-icon a,
+.nav-item a {
+    color: #343a40;
+}
+
+.logo-first-letter {
+    font-weight: bold;
+    color: #ff4747;
+    text-shadow: 2px 0px #6d6d6d;
+}
+
+.bg-theme {
+    background: #7aa3ffdb;
+}
+
+.logo-min {
+    font-size: 18px;
+}
+
+.nav-item a {
+    font-size: 17px;
+}
+
+.nav-item a:hover {
+    color: #dc3545 !important;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.service-section .container .row div p,
+.travel-must div p {
+    font-size: 15px;
+    color: #000000b8;
+    line-height: 1.9;
+}
+
+.travel-must-img {
+    background-size: cover;
+    min-height: 30em;
+    background: url('https://i.ibb.co/LYFytMR/banner1.jpg') no-repeat center;
+}
+
+.extra-space-section-img img {
+    width: 100%;
+    height: auto;
+}
+
+.offer-section .container-fluid .row div {
+    min-height: 21em;
+}
+
+.offer-section-2,
+.offer-section-1 {
+    color: white;
+}
+
+.offer-section-2 {
+    background: url('https://i.ibb.co/ZXmzy9Q/ab2.jpg') no-repeat center;
+}
+
+.offer-section-1 {
+    background: url('https://i.ibb.co/7K45QMn/ab1.jpg') no-repeat center;
+}
+
+.trending-section .container .row div {
+    min-height: 15em;
+}
+
+.free-sub-section {
+    transition: .3s;
+}
+
+.free-sub-section:hover {
+    background-color: #218838 !important;
+    transition: .3s;
+}
+
+.footer .footer-social-link a {
+    color: #404040;
+    margin-right: 3%;
+}
+
+.footer .footer-link a i {
+    margin-right: 10px;
+    color: #fd7474;
+}
+
+.footer-social-link a i {
+    margin-right: 2px;
+    padding: 8px 10px 8px 10px;
+}
+
+.footer-social-link a .fa-facebook-f {
+    color: #4267B2;
+    transition: .3s;
+}
+
+.footer-social-link a .fa-google {
+    color: #db4a39;
+    transition: .3s;
+}
+
+.footer-social-link a:hover .fa-google {
+    transition: .3s;
+    color: white;
+    background-color: #db4a39;
+}
+
+.footer-social-link a .fa-twitter {
+    color: #1DA1F2;
+    transition: .3s;
+}
+
+.copyright {
+    background: #eff1f1;
+}
+
+.arrow-link i {
+    border: 1px solid #6c757d;
+    padding: 10px 8px 10px 8px;
+    border-radius: 15px;
+}
+
+.footer-social-link a:hover .fa-twitter {
+    transition: .3s;
+    color: white;
+    background-color: #1DA1F2
+}
+
+.footer-social-link a:hover .fa-facebook-f {
+    transition: .3s;
+    color: white;
+    background-color: #4267B2;
+}
+
+.footer .footer-link a:hover {
+    transition: .3s;
+    color: #fd7474;
+}
+
+.footer .footer-link a {
+    font-size: 12px;
+    transition: .3s;
+    margin: 10px 0 10px 0px;
+    color: #404040;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.product {
+    background: #f7f7f7;
+    padding: 1.5em;
+}
+
+.custom-btn {
+    letter-spacing: 1px;
+    padding-right: 18px;
+    padding-left: 18px;
+}
+
+.prod-price span:nth-child(1) {
+    color: #989898;
+}
+
+.prod-price span:nth-child(2) {
+    font-weight: 600;
+    color: #ff4747;
+}
+
+.prod-star i {
+    font-size: 10px;
+    margin-right: 4px;
+    color: #6b6b6b;
+}
+
+.prod-price {
+    font-family: 'PT Sans';
+}
+
+.prod-name {
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #151515 !important;
+}
+
+
+/* gallery */
+
+img {
+    max-width: 100%;
+}
+
+.lightbox-opened {
+    background-color: #333;
+    background-color: rgba(51, 51, 51, 0.9);
+    cursor: pointer;
+    height: 100%;
+    left: 0;
+    overflow-y: scroll;
+    padding: 24px;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+}
+
+.lightbox-opened:before {
+    background-color: #333;
+    background-color: rgba(51, 51, 51, 0.9);
+    color: #eee;
+    content: "x";
+    font-family: sans-serif;
+    padding: 6px 12px;
+    position: fixed;
+    text-transform: uppercase;
+}
+
+.lightbox-opened img {
+    box-shadow: 0 0 6px 3px #333;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    height: 190px;
+    margin: 5px;
+}
